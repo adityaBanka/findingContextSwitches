@@ -10,7 +10,7 @@ from sortingMethods.optimisedBubbleSort import optimisedBubbleSort
 from sortingMethods.selectionSort import selectionSort
 from sortingMethods.doubleSelectionSort import doubleSelectionSort
 from sortingMethods.insertionSort import insertionSort
-from sortingMethods.quickSort import sort as quickSort
+from sortingMethods.quickSort import qsort as quickSort
 
 
 class attributes:

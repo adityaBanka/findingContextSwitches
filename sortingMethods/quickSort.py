@@ -31,7 +31,7 @@ def quickSort(array, low, high):
     postSort = time.perf_counter()
     return (postSort - preSort, count)
 
-def sort(array):
+def qsort(array):
     return quickSort(array, low = 0, high = len(array) - 1)
 
 def isSorted(array):
